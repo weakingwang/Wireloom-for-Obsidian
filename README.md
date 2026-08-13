@@ -1,11 +1,12 @@
-<p align="center">
-  <a href="#english"><strong>English</strong></a> ·
-  <a href="#中文"><strong>简体中文</strong></a>
-</p>
 
 <a id="english"></a>
 
 # Wireloom for Obsidian
+
+<p align="center">
+  <a href="#english"><strong>English</strong></a> ·
+  <a href="#中文"><strong>简体中文</strong></a>
+</p>
 
 > Render text directly into UI wireframes inside Obsidian — visualize AI-generated interface prototypes in one click.
 
