@@ -1,10 +1,12 @@
-**[简体中文](#中文)** · **[English](#english)**
-
 
 
 <a id="中文"></a>
 
+**[简体中文](#中文)** · **[English](#english)**
+
 # Wireloom for Obsidian（中文）
+
+[![Obsidian](https://img.shields.io/badge/Obsidian-1.5%2B-6441A5)](https://obsidian.md)
 
 > 在 Obsidian 中把文本直接渲染成 UI 线框图 —— 一键可视化 AI 生成的界面原型。
 
