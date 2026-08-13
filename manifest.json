@@ -1,0 +1,11 @@
+{
+  "id": "wireloom",
+  "name": "Wireloom",
+  "version": "1.0.0",
+  "minAppVersion": "0.15.0",
+  "description": "在 Obsidian 中渲染 Wireloom 线框图（文本转 SVG）",
+  "author": "Community",
+  "authorUrl": "",
+  "fundingUrl": "",
+  "isDesktopOnly": false
+}

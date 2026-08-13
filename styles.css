@@ -1,0 +1,45 @@
+/* Wireloom 块容器 */
+.wireloom-block {
+  margin: 1em 0;
+  overflow-x: auto;
+}
+
+.wireloom-block svg {
+  display: block;
+  margin: 0 auto;
+}
+
+/* 空块提示 */
+.wireloom-empty {
+  color: var(--text-muted);
+  font-style: italic;
+  text-align: center;
+  padding: 1em;
+  border: 2px dashed var(--background-modifier-border);
+  border-radius: 6px;
+}
+
+/* 错误提示 */
+.wireloom-error pre {
+  background-color: var(--background-modifier-error);
+  color: var(--text-error);
+  padding: 1em;
+  border-radius: 6px;
+  border-left: 4px solid var(--text-error);
+  font-size: 0.9em;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+/* 设置面板示例代码样式 */
+.wireloom-example {
+  background-color: var(--background-secondary);
+  padding: 1em;
+  border-radius: 6px;
+  font-size: 0.85em;
+  overflow-x: auto;
+}
+
+.wireloom-help-header {
+  margin-top: 2em;
+}
