@@ -1,10 +1,9 @@
 
-
 <a id="中文"></a>
 
-**[简体中文](#中文)** · **[English](#english)**
-
 # Wireloom for Obsidian（中文）
+
+**[简体中文](#中文)** · **[English](#english)**
 
 [![Obsidian](https://img.shields.io/badge/Obsidian-1.5%2B-6441A5)](https://obsidian.md)
 
