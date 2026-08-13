@@ -2,6 +2,8 @@
 
 
 
+<a id="中文"></a>
+
 # Wireloom for Obsidian（中文）
 
 > 在 Obsidian 中把文本直接渲染成 UI 线框图 —— 一键可视化 AI 生成的界面原型。
@@ -29,7 +31,7 @@
 
 **Wireloom for Obsidian** 是一个 Obsidian 社区插件，它将 [Wireloom](https://github.com/stardock/wireloom) —— 一种专为 AI 智能体设计的文本线框图语言 —— 无缝集成到 Obsidian 的 Markdown 渲染管线中。
 
-在你的 Obsidian 笔记中写一个 ````wireloom` 代码块，插件就会自动将其渲染为自包含的 SVG 线框图。无需切换工具、无需粘贴截图、无需维护外部文件 —— 线框图与文档同源，真正做到「文档即设计」。
+在你的 Obsidian 笔记中写一个 ` ```wireloom ` 代码块，插件就会自动将其渲染为自包含的 SVG 线框图。无需切换工具、无需粘贴截图、无需维护外部文件 —— 线框图与文档同源，真正做到「文档即设计」。
 
 ### 为什么做这个插件？
 
@@ -65,7 +67,7 @@
 
 ## 功能特性
 
-- ✅ **Markdown 代码块渲染**：自动识别 ````wireloom` 围栏代码块并渲染为 SVG
+- ✅ **Markdown 代码块渲染**：自动识别 ` ```wireloom ` 围栏代码块并渲染为 SVG
 - ✅ **主题自适应**：支持浅色/深色主题，可自动跟随 Obsidian 当前主题
 - ✅ **标注**：支持 `annotation` 节点，沿 SVG 边缘绘制引导线标注
 - ✅ **精确定位错误**：解析失败时显示行号、列号和可读的错误信息
@@ -159,12 +161,12 @@ ls -la main.js manifest.json styles.css
 
 1. 按照上述步骤完成构建，确保生成了 `main.js`、`manifest.json` 和 `styles.css`
 2. 将这三个文件复制到 Obsidian 库的插件目录：
-  ```
+   ```
    .obsidian/plugins/wireloom/
    ├── main.js
    ├── manifest.json
    └── styles.css
-  ```
+   ```
 3. 重启 Obsidian
 4. 前往 **设置 → 第三方插件 → 已安装插件**
 5. 找到 **Wireloom**，打开右侧开关启用它
@@ -197,9 +199,9 @@ ls -la main.js manifest.json styles.css
 
 ### 基本语法
 
-在 Obsidian 笔记中插入一个 ````wireloom` 代码块：
+在 Obsidian 笔记中插入一个 ` ```wireloom ` 代码块：
 
-```markdown
+````markdown
 ## 登录页线框图
 
 ```wireloom
@@ -219,7 +221,7 @@ window "User Login":
 annotation "Page title" target="title" position=top
 annotation "Primary action button" target="submit" position=right
 ```
-```
+````
 
 切换到 **预览模式** 或 **阅读模式** 即可看到渲染出的 SVG 线框图。
 
@@ -404,6 +406,8 @@ MIT License
 
 
 
+<a id="english"></a>
+
 # Wireloom for Obsidian
 
 > Render text directly into UI wireframes inside Obsidian — visualize AI-generated interface prototypes in one click.
@@ -435,7 +439,7 @@ MIT License
 
 **Wireloom for Obsidian** is an Obsidian community plugin that seamlessly integrates [Wireloom](https://github.com/stardock/wireloom) — a text-based wireframe language designed for AI agents — into Obsidian's Markdown rendering pipeline.
 
-Write a ````wireloom` code block in your Obsidian note, and the plugin automatically renders it as a self-contained SVG wireframe. No tool switching, no screenshot pasting, no external file maintenance — the wireframe lives in the same source as the document, achieving true "document as design".
+Write a ` ```wireloom ` code block in your Obsidian note, and the plugin automatically renders it as a self-contained SVG wireframe. No tool switching, no screenshot pasting, no external file maintenance — the wireframe lives in the same source as the document, achieving true "document as design".
 
 ### Why this plugin?
 
@@ -471,7 +475,7 @@ This project follows these core design principles:
 
 ## Features
 
-- ✅ **Markdown code block rendering**: automatically recognizes ````wireloom` fenced code blocks and renders them as SVG
+- ✅ **Markdown code block rendering**: automatically recognizes ` ```wireloom ` fenced code blocks and renders them as SVG
 - ✅ **Theme adaptive**: supports light/dark themes and can follow Obsidian's current theme automatically
 - ✅ **Annotations**: supports the `annotation` node, drawing leader-line callout labels along the SVG edges
 - ✅ **Precise error location**: shows line number, column number, and a human-readable error message on parse failure
@@ -565,12 +569,12 @@ Confirm that all three files exist and that `main.js` is larger than 50KB (which
 
 1. Complete the build following the steps above, ensuring `main.js`, `manifest.json`, and `styles.css` are generated
 2. Copy these three files into your Obsidian Vault's plugin directory:
-  ```
+   ```
    .obsidian/plugins/wireloom/
    ├── main.js
    ├── manifest.json
    └── styles.css
-  ```
+   ```
 3. Restart Obsidian
 4. Go to **Settings → Community plugins → Installed plugins**
 5. Find **Wireloom** and toggle the switch on the right to enable it
@@ -603,9 +607,9 @@ Once this project passes Obsidian community plugin review, you can search for "W
 
 ### Basic syntax
 
-Insert a ````wireloom` code block into an Obsidian note:
+Insert a ` ```wireloom ` code block into an Obsidian note:
 
-```markdown
+````markdown
 ## Login page wireframe
 
 ```wireloom
@@ -625,7 +629,7 @@ window "User Login":
 annotation "Page title" target="title" position=top
 annotation "Primary action button" target="submit" position=right
 ```
-```
+````
 
 Switch to **Preview mode** or **Reading mode** to see the rendered SVG wireframe.
 
