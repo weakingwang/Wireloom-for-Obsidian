@@ -36,7 +36,7 @@
 
 ## 简介
 
-**Wireloom for Obsidian** 是一个 Obsidian 社区插件，它将 [Wireloom](https://github.com/stardock/wireloom) —— 一种专为 AI 智能体设计的文本线框图语言 —— 无缝集成到 Obsidian 的 Markdown 渲染管线中。
+**Wireloom for Obsidian** 是一个 Obsidian 社区插件，它将 [Wireloom](https://github.com/StardockCrop/Wireloom) —— 一种专为 AI 智能体设计的文本线框图语言 —— 无缝集成到 Obsidian 的 Markdown 渲染管线中。
 
 在你的 Obsidian 笔记中写一个 ` ```wireloom ` 代码块，插件就会自动将其渲染为自包含的 SVG 线框图。无需切换工具、无需粘贴截图、无需维护外部文件 —— 线框图与文档同源，真正做到「文档即设计」。
 
@@ -193,7 +193,7 @@ ls -la main.js manifest.json styles.css
 
 1. 安装并启用 BRAT 插件
 2. 打开命令面板，运行 **BRAT: Add a beta plugin for testing**
-3. 输入本项目的 GitHub 仓库地址
+3. 输入本项目的 GitHub 仓库地址：[https://github.com/weakingwang/Wireloom-for-Obsidian](https://github.com/weakingwang/Wireloom-for-Obsidian)
 4. BRAT 会自动下载最新构建并安装
 
 
@@ -255,7 +255,7 @@ annotation "Primary action button" target="submit" position=right
 
 ### 完整语法参考
 
-请参阅 Wireloom 官方文档：[design/grammar.md](https://github.com/stardock/wireloom/blob/main/design/grammar.md)
+请参阅 Wireloom 官方文档：[design/grammar.md](https://github.com/StardockCorp/Wireloom/blob/main/design/grammar.md)
 
 ---
 
@@ -393,7 +393,7 @@ npm run build
 
 ## 资源
 
-- **Wireloom 官方仓库**：[https://github.com/stardock/wireloom](https://github.com/stardock/wireloom)
+- **Wireloom 官方仓库**：[https://github.com/StardockCorp/Wireloom](https://github.com/StardockCorp/Wireloom)
 - **Wireloom 在线编辑器**：[https://wireloom.dev](https://wireloom.dev) （如果可用）
 - **Obsidian 插件开发文档**：[https://docs.obsidian.md/Plugins/Getting+started](https://docs.obsidian.md/Plugins/Getting+started)
 - **Mermaid**（类似的文本图表工具）：[https://mermaid.js.org](https://mermaid.js.org)
@@ -450,7 +450,7 @@ npm run build
 
 ## Introduction
 
-**Wireloom for Obsidian** is an Obsidian community plugin that seamlessly integrates [Wireloom](https://github.com/stardock/wireloom) — a text-based wireframe language designed for AI agents — into Obsidian's Markdown rendering pipeline.
+**Wireloom for Obsidian** is an Obsidian community plugin that seamlessly integrates [Wireloom](https://github.com/StardockCorp/Wireloom) — a text-based wireframe language designed for AI agents — into Obsidian's Markdown rendering pipeline.
 
 Write a ` ```wireloom ` code block in your Obsidian note, and the plugin automatically renders it as a self-contained SVG wireframe. No tool switching, no screenshot pasting, no external file maintenance — the wireframe lives in the same source as the document, achieving true "document as design".
 
@@ -607,7 +607,7 @@ If you use the [BRAT](https://github.com/TfTHacker/obsidian42-brat) plugin to ma
 
 1. Install and enable the BRAT plugin
 2. Open the command palette and run **BRAT: Add a beta plugin for testing**
-3. Enter this project's GitHub repository URL
+3. Enter this project's GitHub repository URL[https://github.com/weakingwang/Wireloom-for-Obsidian](https://github.com/weakingwang/Wireloom-for-Obsidian)
 4. BRAT automatically downloads the latest build and installs it
 
 
@@ -669,7 +669,7 @@ Switch to **Preview mode** or **Reading mode** to see the rendered SVG wireframe
 
 ### Full grammar reference
 
-See the official Wireloom documentation: [design/grammar.md](https://github.com/stardock/wireloom/blob/main/design/grammar.md)
+See the official Wireloom documentation: [design/grammar.md](https://github.com/StardockCorp/Wireloom/blob/main/design/grammar.md)
 
 ---
 
@@ -803,7 +803,7 @@ npm run build
 
 ## Resources
 
-- **Wireloom official repository**: [https://github.com/stardock/wireloom](https://github.com/stardock/wireloom)
+- **Wireloom official repository**: [https://github.com/StardockCorp/Wireloom](https://github.com/StardockCorp/Wireloom)
 - **Wireloom online editor**: [https://wireloom.dev](https://wireloom.dev) (if available)
 - **Obsidian plugin development docs**: [https://docs.obsidian.md/Plugins/Getting+started](https://docs.obsidian.md/Plugins/Getting+started)
 - **Mermaid** (similar text-based diagramming tool): [https://mermaid.js.org](https://mermaid.js.org)
