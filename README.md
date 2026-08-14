@@ -36,7 +36,7 @@
 
 ## 简介
 
-**Wireloom for Obsidian** 是一个 Obsidian 社区插件，它将 [Wireloom](https://github.com/StardockCrop/Wireloom) —— 一种专为 AI 智能体设计的文本线框图语言 —— 无缝集成到 Obsidian 的 Markdown 渲染管线中。
+**Wireloom for Obsidian** 是一个 Obsidian 社区插件，它将 [Wireloom](https://github.com/StardockCorp/Wireloom) —— 一种专为 AI 智能体设计的文本线框图语言 —— 无缝集成到 Obsidian 的 Markdown 渲染管线中。
 
 在你的 Obsidian 笔记中写一个 ` ```wireloom ` 代码块，插件就会自动将其渲染为自包含的 SVG 线框图。无需切换工具、无需粘贴截图、无需维护外部文件 —— 线框图与文档同源，真正做到「文档即设计」。
 
