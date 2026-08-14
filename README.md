@@ -4,9 +4,8 @@
 
 **Language:** **[简体中文](#中文)** · **[English](#english)**
 
-[![Obsidian](https://img.shields.io/badge/Obsidian-483699?logo=obsidian&logoColor=white)](https://obsidian.md)
-
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Obsidian 0.15+](https://img.shields.io/badge/Obsidian-0.15+-483699?logo=obsidian&logoColor=white)](https://obsidian.md)
 
 
 <a id="中文"></a>
@@ -117,7 +116,7 @@
 
 ```bash
 cd /path/to/your/vault/.obsidian/plugins/
-git clone https://github.com/your-repo/wireloom-obsidian.git wireloom
+git clone https://github.com/weakingwang/Wireloom-for-Obsidian.git wireloom
 cd wireloom
 ```
 
@@ -531,7 +530,7 @@ This project follows these core design principles:
 
 ```bash
 cd /path/to/your/vault/.obsidian/plugins/
-git clone https://github.com/your-repo/wireloom-obsidian.git wireloom
+git clone https://github.com/weakingwang/Wireloom-for-Obsidian.git wireloom
 cd wireloom
 ```
 
