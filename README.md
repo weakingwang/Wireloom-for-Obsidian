@@ -2,18 +2,18 @@
 
 # Wireloom for Obsidian
 
-[![Obsidian](https://img.shields.io/badge/Obsidian-7c3aed?style=for-the-badge&logo=obsidian&logoColor=white)](https://obsidian.md/download)
+**Language:** **[简体中文](#中文)** · **[English](#english)**
+
+[![Obsidian](https://img.shields.io/badge/Obsidian-483699?logo=obsidian&logoColor=white)](https://obsidian.md)
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-
-
-**[简体中文](#中文)** · **[English](#english)**
-
 
 
 <a id="中文"></a>
 
-> Render text directly into UI wireframes inside Obsidian — visualize AI-generated interface prototypes in one click.
 > 在 Obsidian 中把文本直接渲染成 UI 线框图 —— 一键可视化 AI 生成的界面原型。
+> 
+> Render text directly into UI wireframes inside Obsidian — visualize AI-generated interface prototypes in one click.
 
 ---
 
@@ -425,8 +425,6 @@ npm run build
 # Wireloom for Obsidian
 
 > Render text directly into UI wireframes inside Obsidian — visualize AI-generated interface prototypes in one click.
-> 在 Obsidian 中把文本直接渲染成 UI 线框图 —— 一键可视化 AI 生成的界面原型。
-
 ---
 
 
