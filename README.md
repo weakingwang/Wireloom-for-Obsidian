@@ -380,7 +380,7 @@ npm run build
 
 ## 资源
 
-- **Wireloom 官方仓库**：[https://github.com/stardock/wireloom](https://github.com/stardock/wireloom)
+- **Wireloom 官方仓库**：[https://github.com/StardockCorp/Wireloom](https://github.com/StardockCorp/Wireloom)
 - **Wireloom 在线编辑器**：[https://wireloom.dev](https://wireloom.dev) （如果可用）
 - **Obsidian 插件开发文档**：[https://docs.obsidian.md/Plugins/Getting+started](https://docs.obsidian.md/Plugins/Getting+started)
 - **Mermaid**（类似的文本图表工具）：[https://mermaid.js.org](https://mermaid.js.org)
@@ -784,7 +784,7 @@ npm run build
 
 ## Resources
 
-- **Wireloom official repository**: [https://github.com/stardock/wireloom](https://github.com/stardock/wireloom)
+- **Wireloom official repository**: [https://github.com/StardockCorp/Wireloom](https://github.com/StardockCorp/Wireloom)
 - **Wireloom online editor**: [https://wireloom.dev](https://wireloom.dev) (if available)
 - **Obsidian plugin development docs**: [https://docs.obsidian.md/Plugins/Getting+started](https://docs.obsidian.md/Plugins/Getting+started)
 - **Mermaid** (similar text-based diagramming tool): [https://mermaid.js.org](https://mermaid.js.org)
