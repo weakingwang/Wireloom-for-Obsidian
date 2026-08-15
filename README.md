@@ -57,7 +57,7 @@
 
 ![A quick preview - 任务看板线框图](assets/agent-task-board.png)
 
-五个以渐进色区分的泳道区域（`section`）承载任务卡片（`slot`），卡片内是右对齐的键值对（`kv`）标签/值行，并可挂上进度条（`progress`）、状态胶囊（`status`）和页脚操作按钮（`footer`）。页头用徽标（`chip`）与状态胶囊（`status`）标识连接状态，右侧再用一个固定宽度的面板（`panel`）装任务详情。在此基础上叠加分隔线（`divider`）、输入框（`input`）与带引线的标注（`annotation`）等元素，就能勾勒出一个完整的任务看板应用界面。
+五个泳道区域（`section`）承载任务卡片（`slot`），卡片内是右对齐的键值对（`kv`）标签/值行，并可挂上进度条（`progress`）、状态胶囊（`status`）和页脚操作按钮（`footer`）。页头用徽标（`chip`）与状态胶囊（`status`）标识连接状态，右侧再用一个固定宽度的面板（`panel`）装任务详情。在此基础上叠加分隔线（`divider`）、输入框（`input`）与带引线的标注（`annotation`）等元素，就能勾勒出一个完整的任务看板应用界面。
 
 ## 设计目标
 
@@ -170,7 +170,7 @@ ls -la main.js manifest.json styles.css
 
 
 
-### 方式一：手动安装（推荐）
+### 方式一：手动安装
 
 1. 按照上述步骤完成构建，确保生成了 `main.js`、`manifest.json` 和 `styles.css`
 2. 将这三个文件复制到 Obsidian 库的插件目录：
@@ -187,7 +187,7 @@ ls -la main.js manifest.json styles.css
 
 
 
-### 方式二：BRAT 安装（测试版）
+### 方式二：BRAT 安装（推荐）
 
 如果你使用 [BRAT](https://github.com/TfTHacker/obsidian42-brat) 插件来管理测试版插件：
 
@@ -471,7 +471,7 @@ Here is a local task board (cc-task) sketched with Wireloom:
 
 ![A quick preview - task board wireframe](assets/agent-task-board.png)
 
-Five color-graded swimlane `section`s hold task-card `slot`s, each carrying right-aligned `kv` label/value rows plus optional `progress` bars, `status` pills, and a `footer` of action buttons. A header marks connection state with a `chip` and a `status` pill, while a fixed-width `panel` on the right holds the task details. Layer `divider`s, an `input`, and leader-lined `annotation`s on top, and you can sketch a complete task-board application screen.
+Five swimlane `section`s hold task-card `slot`s, each carrying right-aligned `kv` label/value rows plus optional `progress` bars, `status` pills, and a `footer` of action buttons. A header marks connection state with a `chip` and a `status` pill, while a fixed-width `panel` on the right holds the task details. Layer `divider`s, an `input`, and leader-lined `annotation`s on top, and you can sketch a complete task-board application screen.
 
 ## Design Goals
 
@@ -584,7 +584,7 @@ Confirm that all three files exist and that `main.js` is larger than 50KB (which
 
 
 
-### Method 1: Manual install (recommended)
+### Method 1: Manual install 
 
 1. Complete the build following the steps above, ensuring `main.js`, `manifest.json`, and `styles.css` are generated
 2. Copy these three files into your Obsidian Vault's plugin directory:
@@ -601,7 +601,7 @@ Confirm that all three files exist and that `main.js` is larger than 50KB (which
 
 
 
-### Method 2: BRAT install (beta)
+### Method 2: BRAT install (recommended)
 
 If you use the [BRAT](https://github.com/TfTHacker/obsidian42-brat) plugin to manage beta plugins:
 
