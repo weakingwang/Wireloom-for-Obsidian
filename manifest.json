@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "minAppVersion": "0.15.0",
   "description": "Render Wireloom wireframes (text-to-SVG) in Obsidian",
-  "author": "weakingwang",
+  "author": "Roxie",
   "authorUrl": "https://github.com/weakingwang",
   "fundingUrl": "",
   "isDesktopOnly": false
