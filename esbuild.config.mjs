@@ -1,6 +1,6 @@
 import esbuild from "esbuild";
 import process from "process";
-import builtins from "builtin-modules";
+import builtins from "node:module";
 
 const banner =
 `/*
@@ -21,7 +21,7 @@ const context = await esbuild.context({
     "electron",
     "@codemirror/*",
     "codemirror",
-    ...builtins,
+    ...builtins.builtinModules,
   ],
   format: "cjs",
   target: "es2018",

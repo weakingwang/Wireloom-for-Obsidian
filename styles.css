@@ -7,6 +7,9 @@
 .wireloom-block svg {
   display: block;
   margin: 0 auto;
+  width: 100%;
+  height: auto;
+  max-width: var(--wireloom-max-width, 100%);
 }
 
 /* 空块提示 */
@@ -40,6 +43,3 @@
   overflow-x: auto;
 }
 
-.wireloom-help-header {
-  margin-top: 2em;
-}

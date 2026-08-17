@@ -1,18 +1,12 @@
+**[简体中文](#中文)** · **[English](#english)**
 
-
-# Wireloom for Obsidian
-
-**Language:** **[简体中文](#中文)** · **[English](#english)**
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Obsidian 0.15+](https://img.shields.io/badge/Obsidian-0.15+-483699?logo=obsidian&logoColor=white)](https://obsidian.md)
 
 
 <a id="中文"></a>
 
+# Wireloom for Obsidian（中文）
+
 > 在 Obsidian 中把文本直接渲染成 UI 线框图 —— 一键可视化 AI 生成的界面原型。
-> 
-> Render text directly into UI wireframes inside Obsidian — visualize AI-generated interface prototypes in one click.
 
 ---
 
@@ -36,7 +30,7 @@
 
 ## 简介
 
-**Wireloom for Obsidian** 是一个 Obsidian 社区插件，它将 [Wireloom](https://github.com/StardockCorp/Wireloom) —— 一种专为 AI 智能体设计的文本线框图语言 —— 无缝集成到 Obsidian 的 Markdown 渲染管线中。
+**Wireloom for Obsidian** 是一个 Obsidian 社区插件，它将 [Wireloom](https://github.com/stardock/wireloom) —— 一种专为 AI 智能体设计的文本线框图语言 —— 无缝集成到 Obsidian 的 Markdown 渲染管线中。
 
 在你的 Obsidian 笔记中写一个 ` ```wireloom ` 代码块，插件就会自动将其渲染为自包含的 SVG 线框图。无需切换工具、无需粘贴截图、无需维护外部文件 —— 线框图与文档同源，真正做到「文档即设计」。
 
@@ -57,7 +51,7 @@
 
 ![A quick preview - 任务看板线框图](assets/agent-task-board.png)
 
-五个泳道区域（`section`）承载任务卡片（`slot`），卡片内是右对齐的键值对（`kv`）标签/值行，并可挂上进度条（`progress`）、状态胶囊（`status`）和页脚操作按钮（`footer`）。页头用徽标（`chip`）与状态胶囊（`status`）标识连接状态，右侧再用一个固定宽度的面板（`panel`）装任务详情。在此基础上叠加分隔线（`divider`）、输入框（`input`）与带引线的标注（`annotation`）等元素，就能勾勒出一个完整的任务看板应用界面。
+五个以渐进色区分的泳道区域（`section`）承载任务卡片（`slot`），卡片内是右对齐的键值对（`kv`）标签/值行，并可挂上进度条（`progress`）、状态胶囊（`status`）和页脚操作按钮（`footer`）。页头用徽标（`chip`）与状态胶囊（`status`）标识连接状态，右侧再用一个固定宽度的面板（`panel`）装任务详情。在此基础上叠加分隔线（`divider`）、输入框（`input`）与带引线的标注（`annotation`）等元素，就能勾勒出一个完整的任务看板应用界面。
 
 ## 设计目标
 
@@ -170,7 +164,7 @@ ls -la main.js manifest.json styles.css
 
 
 
-### 方式一：手动安装
+### 方式一：手动安装（推荐）
 
 1. 按照上述步骤完成构建，确保生成了 `main.js`、`manifest.json` 和 `styles.css`
 2. 将这三个文件复制到 Obsidian 库的插件目录：
@@ -187,13 +181,13 @@ ls -la main.js manifest.json styles.css
 
 
 
-### 方式二：BRAT 安装（推荐）
+### 方式二：BRAT 安装（测试版）
 
 如果你使用 [BRAT](https://github.com/TfTHacker/obsidian42-brat) 插件来管理测试版插件：
 
 1. 安装并启用 BRAT 插件
 2. 打开命令面板，运行 **BRAT: Add a beta plugin for testing**
-3. 输入本项目的 GitHub 仓库地址：[https://github.com/weakingwang/Wireloom-for-Obsidian](https://github.com/weakingwang/Wireloom-for-Obsidian)
+3. 输入本项目的 GitHub 仓库地址
 4. BRAT 会自动下载最新构建并安装
 
 
@@ -255,7 +249,7 @@ annotation "Primary action button" target="submit" position=right
 
 ### 完整语法参考
 
-请参阅 Wireloom 官方文档：[design/grammar.md](https://github.com/StardockCorp/Wireloom/blob/main/design/grammar.md)
+请参阅 Wireloom 官方文档：[design/grammar.md](https://github.com/stardock/wireloom/blob/main/design/grammar.md)
 
 ---
 
@@ -393,7 +387,7 @@ npm run build
 
 ## 资源
 
-- **Wireloom 官方仓库**：[https://github.com/StardockCorp/Wireloom](https://github.com/StardockCorp/Wireloom)
+- **Wireloom 官方仓库**：[https://github.com/stardock/wireloom](https://github.com/stardock/wireloom)
 - **Wireloom 在线编辑器**：[https://wireloom.dev](https://wireloom.dev) （如果可用）
 - **Obsidian 插件开发文档**：[https://docs.obsidian.md/Plugins/Getting+started](https://docs.obsidian.md/Plugins/Getting+started)
 - **Mermaid**（类似的文本图表工具）：[https://mermaid.js.org](https://mermaid.js.org)
@@ -424,6 +418,7 @@ npm run build
 # Wireloom for Obsidian
 
 > Render text directly into UI wireframes inside Obsidian — visualize AI-generated interface prototypes in one click.
+
 ---
 
 
@@ -450,7 +445,7 @@ npm run build
 
 ## Introduction
 
-**Wireloom for Obsidian** is an Obsidian community plugin that seamlessly integrates [Wireloom](https://github.com/StardockCorp/Wireloom) — a text-based wireframe language designed for AI agents — into Obsidian's Markdown rendering pipeline.
+**Wireloom for Obsidian** is an Obsidian community plugin that seamlessly integrates [Wireloom](https://github.com/stardock/wireloom) — a text-based wireframe language designed for AI agents — into Obsidian's Markdown rendering pipeline.
 
 Write a ` ```wireloom ` code block in your Obsidian note, and the plugin automatically renders it as a self-contained SVG wireframe. No tool switching, no screenshot pasting, no external file maintenance — the wireframe lives in the same source as the document, achieving true "document as design".
 
@@ -471,7 +466,7 @@ Here is a local task board (cc-task) sketched with Wireloom:
 
 ![A quick preview - task board wireframe](assets/agent-task-board.png)
 
-Five swimlane `section`s hold task-card `slot`s, each carrying right-aligned `kv` label/value rows plus optional `progress` bars, `status` pills, and a `footer` of action buttons. A header marks connection state with a `chip` and a `status` pill, while a fixed-width `panel` on the right holds the task details. Layer `divider`s, an `input`, and leader-lined `annotation`s on top, and you can sketch a complete task-board application screen.
+Five color-graded swimlane `section`s hold task-card `slot`s, each carrying right-aligned `kv` label/value rows plus optional `progress` bars, `status` pills, and a `footer` of action buttons. A header marks connection state with a `chip` and a `status` pill, while a fixed-width `panel` on the right holds the task details. Layer `divider`s, an `input`, and leader-lined `annotation`s on top, and you can sketch a complete task-board application screen.
 
 ## Design Goals
 
@@ -584,7 +579,7 @@ Confirm that all three files exist and that `main.js` is larger than 50KB (which
 
 
 
-### Method 1: Manual install 
+### Method 1: Manual install (recommended)
 
 1. Complete the build following the steps above, ensuring `main.js`, `manifest.json`, and `styles.css` are generated
 2. Copy these three files into your Obsidian Vault's plugin directory:
@@ -601,13 +596,13 @@ Confirm that all three files exist and that `main.js` is larger than 50KB (which
 
 
 
-### Method 2: BRAT install (recommended)
+### Method 2: BRAT install (beta)
 
 If you use the [BRAT](https://github.com/TfTHacker/obsidian42-brat) plugin to manage beta plugins:
 
 1. Install and enable the BRAT plugin
 2. Open the command palette and run **BRAT: Add a beta plugin for testing**
-3. Enter this project's GitHub repository URL[https://github.com/weakingwang/Wireloom-for-Obsidian](https://github.com/weakingwang/Wireloom-for-Obsidian)
+3. Enter this project's GitHub repository URL
 4. BRAT automatically downloads the latest build and installs it
 
 
@@ -669,7 +664,7 @@ Switch to **Preview mode** or **Reading mode** to see the rendered SVG wireframe
 
 ### Full grammar reference
 
-See the official Wireloom documentation: [design/grammar.md](https://github.com/StardockCorp/Wireloom/blob/main/design/grammar.md)
+See the official Wireloom documentation: [design/grammar.md](https://github.com/stardock/wireloom/blob/main/design/grammar.md)
 
 ---
 
@@ -803,7 +798,7 @@ npm run build
 
 ## Resources
 
-- **Wireloom official repository**: [https://github.com/StardockCorp/Wireloom](https://github.com/StardockCorp/Wireloom)
+- **Wireloom official repository**: [https://github.com/stardock/wireloom](https://github.com/stardock/wireloom)
 - **Wireloom online editor**: [https://wireloom.dev](https://wireloom.dev) (if available)
 - **Obsidian plugin development docs**: [https://docs.obsidian.md/Plugins/Getting+started](https://docs.obsidian.md/Plugins/Getting+started)
 - **Mermaid** (similar text-based diagramming tool): [https://mermaid.js.org](https://mermaid.js.org)

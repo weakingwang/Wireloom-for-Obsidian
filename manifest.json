@@ -1,7 +1,7 @@
 {
   "id": "wireloom",
   "name": "Wireloom",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "minAppVersion": "0.15.0",
   "description": "Render Wireloom wireframes (text-to-SVG) directly in your notes.",
   "author": "Roxie",
