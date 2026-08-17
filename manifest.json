@@ -3,9 +3,9 @@
   "name": "Wireloom",
   "version": "1.0.0",
   "minAppVersion": "0.15.0",
-  "description": "在 Obsidian 中渲染 Wireloom 线框图（文本转 SVG）",
-  "author": "Community",
-  "authorUrl": "",
+  "description": "Render Wireloom wireframes (text-to-SVG) in Obsidian",
+  "author": "weakingwang",
+  "authorUrl": "https://github.com/weakingwang",
   "fundingUrl": "",
   "isDesktopOnly": false
 }
