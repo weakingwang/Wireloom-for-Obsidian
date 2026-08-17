@@ -1,6 +1,6 @@
 {
   "name": "wireloom-obsidian",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Wireloom plugin for Obsidian",
   "main": "main.js",
   "scripts": {
