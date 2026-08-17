@@ -12,7 +12,7 @@ let wireloomModule: WireloomModule | null = null;
 async function getWireloom(): Promise<WireloomModule> {
   if (!wireloomModule) {
     const mod = await import("wireloom");
-    wireloomModule = (mod.default ?? mod) as WireloomModule;
+    wireloomModule = mod.default ?? mod;
   }
   return wireloomModule;
 }
@@ -111,7 +111,7 @@ export default class WireloomPlugin extends Plugin {
   onunload() {}
 
   async loadSettings() {
-    this.settings = Object.assign({}, DEFAULT_SETTINGS, await this.loadData());
+    this.settings = Object.assign({}, DEFAULT_SETTINGS, (await this.loadData()) as Partial<WireloomSettings>);
   }
 
   async saveSettings() {
@@ -137,7 +137,7 @@ export default class WireloomPlugin extends Plugin {
     el.style.setProperty("--wireloom-max-width", this.settings.maxWidth);
 
     if (!source || source.trim().length === 0) {
-      el.createEl("div", {
+      el.createDiv({
         text: "（空 Wireloom 代码块）",
         cls: "wireloom-empty",
       });
@@ -165,7 +165,7 @@ export default class WireloomPlugin extends Plugin {
 
       const pre = el.createEl("pre");
       pre.createEl("strong", { text: "Wireloom 错误：" });
-      pre.createEl("span", { text: errorMessage(err) });
+      pre.createSpan({ text: errorMessage(err) });
     }
   }
 
@@ -179,7 +179,6 @@ export default class WireloomPlugin extends Plugin {
     menu.addItem((item) => {
       item
         .setTitle("导出 Wireloom SVG")
-        .setIcon("download")
         .onClick(async () => {
           await this.exportSvgFromFile(file);
         });
@@ -199,8 +198,8 @@ export default class WireloomPlugin extends Plugin {
     }
 
     const safeBase = file.basename.replace(/[\\/:*?"<>|]/g, "-");
-    new ExportFolderModal(this.app, async (folder) => {
-      await this.saveBlocksToFolder(blocks, folder, safeBase);
+    new ExportFolderModal(this.app, (folder) => {
+      void this.saveBlocksToFolder(blocks, folder, safeBase);
     }).open();
   }
 
@@ -284,7 +283,7 @@ class WireloomSettingTab extends PluginSettingTab {
     const { containerEl } = this;
     containerEl.empty();
 
-    new Setting(containerEl).setName("Wireloom 设置").setHeading();
+    new Setting(containerEl).setName("设置").setHeading();
     containerEl.createEl("p", {
       text: "Wireloom 是一个文本到线框图的渲染工具。在代码块中编写 wireloom 语法即可渲染 SVG 线框图。",
     });

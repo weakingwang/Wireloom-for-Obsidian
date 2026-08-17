@@ -5230,7 +5230,7 @@ var WireloomPlugin = class extends import_obsidian.Plugin {
     el.addClass("wireloom-block");
     el.style.setProperty("--wireloom-max-width", this.settings.maxWidth);
     if (!source || source.trim().length === 0) {
-      el.createEl("div", {
+      el.createDiv({
         text: "\uFF08\u7A7A Wireloom \u4EE3\u7801\u5757\uFF09",
         cls: "wireloom-empty"
       });
@@ -5254,7 +5254,7 @@ var WireloomPlugin = class extends import_obsidian.Plugin {
       el.addClass("wireloom-error");
       const pre = el.createEl("pre");
       pre.createEl("strong", { text: "Wireloom \u9519\u8BEF\uFF1A" });
-      pre.createEl("span", { text: errorMessage(err) });
+      pre.createSpan({ text: errorMessage(err) });
     }
   }
   /**
@@ -5265,7 +5265,7 @@ var WireloomPlugin = class extends import_obsidian.Plugin {
       return;
     }
     menu.addItem((item) => {
-      item.setTitle("\u5BFC\u51FA Wireloom SVG").setIcon("download").onClick(async () => {
+      item.setTitle("\u5BFC\u51FA Wireloom SVG").onClick(async () => {
         await this.exportSvgFromFile(file);
       });
     });
@@ -5281,8 +5281,8 @@ var WireloomPlugin = class extends import_obsidian.Plugin {
       return;
     }
     const safeBase = file.basename.replace(/[\\/:*?"<>|]/g, "-");
-    new ExportFolderModal(this.app, async (folder) => {
-      await this.saveBlocksToFolder(blocks, folder, safeBase);
+    new ExportFolderModal(this.app, (folder) => {
+      void this.saveBlocksToFolder(blocks, folder, safeBase);
     }).open();
   }
   /**
@@ -5352,7 +5352,7 @@ var WireloomSettingTab = class extends import_obsidian.PluginSettingTab {
   display() {
     const { containerEl } = this;
     containerEl.empty();
-    new import_obsidian.Setting(containerEl).setName("Wireloom \u8BBE\u7F6E").setHeading();
+    new import_obsidian.Setting(containerEl).setName("\u8BBE\u7F6E").setHeading();
     containerEl.createEl("p", {
       text: "Wireloom \u662F\u4E00\u4E2A\u6587\u672C\u5230\u7EBF\u6846\u56FE\u7684\u6E32\u67D3\u5DE5\u5177\u3002\u5728\u4EE3\u7801\u5757\u4E2D\u7F16\u5199 wireloom \u8BED\u6CD5\u5373\u53EF\u6E32\u67D3 SVG \u7EBF\u6846\u56FE\u3002"
     });
