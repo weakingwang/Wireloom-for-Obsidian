@@ -192,7 +192,7 @@ ls -la main.js manifest.json styles.css
 
 
 
-### 方式三：Obsidian 社区插件市场（未来）
+### 方式三：Obsidian 社区插件市场
 
 本项目通过 Obsidian 社区插件审核后，你可以在 **设置 → 第三方插件 → 浏览** 中搜索 "Wireloom" 一键安装。
 
@@ -607,7 +607,7 @@ If you use the [BRAT](https://github.com/TfTHacker/obsidian42-brat) plugin to ma
 
 
 
-### Method 3: Obsidian community plugin marketplace (future)
+### Method 3: Obsidian community plugin marketplace 
 
 Once this project passes Obsidian community plugin review, you can search for "Wireloom" in **Settings → Community plugins → Browse** and install it in one click.
 
